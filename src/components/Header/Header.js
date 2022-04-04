@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='navbar'>
-            <Link to="/home">HOME</Link>
+            <Link to="/">HOME</Link>
             <Link to="/reviews">REVIEWS</Link>
             <Link to="/dashboard">DASHBOARD</Link>
             <Link to="/blogs">BLOGS</Link>

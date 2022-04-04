@@ -2,38 +2,37 @@
     {
         "id": 1,
         "name": "Jonathon",
-        "review": "“The wind picked up, ruffled [Elsa’s] dress. She paused in beating the rug, sweat running down her face…and tented a hand over her eyes. Past the outhouse, a murky, urine-yellow haze burnished the sky.",
+        "reviewComent": "“The wind picked up, ruffled [Elsa’s] dress. She paused in beating the rug, sweat running down her face…and tented a hand over her eyes. Past the outhouse, a murky, urine-yellow haze burnished the sky.",
         "rating": 4
     },
     {
         "id": 2,
         "name": "Emily May",
-        "review": "Kristin Hannah's books seem to get pigeonholed as 'womens fiction', whatever that means, but the three books I've read from her - The Nightingale, The Great Alone, and this one - have all been, for me, nothing short of survival stories.",
+        "reviewComent": "Kristin Hannah's books seem to get pigeonholed as 'womens fiction', whatever that means, but the three books I've read from her - The Nightingale, The Great Alone, and this one - have all been, for me, nothing short of survival stories.",
         "rating": 3.5
     },
     {
         "id": 3,
         "name": "Nilufer Ozmekik",
-        "review": "My choice for best historical fiction at Goodreads choice awards 2022! I think my eyes are bleeding. They cried themselves to death. They cannot function properly anymore.",
+        "reviewComent": "My choice for best historical fiction at Goodreads choice awards 2022! I think my eyes are bleeding. They cried themselves to death. They cannot function properly anymore.",
         "rating": 5
     },
     {
         "id": 4,
         "name": "Maureen",
-        "review": "Forgive my indulgence by starting this review on a personal note, but as a child, my parents had a saying - “Never judge a person’s life story by the chapter you find them in”. It was said with kindness and concern for others’ misfortunes, and never was this more pertinent than in The Four Winds!",
+        "reviewComent": "Forgive my indulgence by starting this reviewComent on a personal note, but as a child, my parents had a saying - “Never judge a person’s life story by the chapter you find them in”. It was said with kindness and concern for others’ misfortunes, and never was this more pertinent than in The Four Winds!",
         "rating": 5
     },
     {
         "id": 5,
         "name": "Paromjit",
-        "review": "This is epic historical fiction from Kristin Hannah, a harrowing, tough and painful read of one of American history's darkest period, the Great Depression and the Dust Bowl, the tragedies, poverty, starvation, unemployment, the sacrifices made, set in Texas and California from the early 1920s up to WW2.",
+        "reviewComent": "This is epic historical fiction from Kristin Hannah, a harrowing, tough and painful read of one of American history's darkest period, the Great Depression and the Dust Bowl, the tragedies, poverty, starvation, unemployment, the sacrifices made, set in Texas and California from the early 1920s up to WW2.",
         "rating": 4
     },
     {
         "id": 6,
         "name": "Mary Beth",
-        "review": "This book was an incredibly depressing read. I felt so much for the characters that I really had to hold myself back from crying. Particularly when injustice after injustice was endured and things kept going from bad to worse.",
+        "reviewComent": "This book was an incredibly depressing read. I felt so much for the characters that I really had to hold myself back from crying. Particularly when injustice after injustice was endured and things kept going from bad to worse.",
         "rating": 5
     }
-    
 ]

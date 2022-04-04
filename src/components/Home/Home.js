@@ -1,9 +1,12 @@
 import React from 'react';
 import './Home.css'
 import img from '../../image.png'
-import useReview from '../../hooks/useReview';
+
+
+
 
 const Home = () => {
+    
     return (
         <div>
             <div className='home-container'>
@@ -19,6 +22,7 @@ const Home = () => {
             </div>
             <div className="customar-review">
                 <h2>Customer Review(3)</h2>
+                
             </div>
         </div>
     );

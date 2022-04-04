@@ -1,0 +1,13 @@
+.review-box{
+    box-shadow: 10px 20px 60px gray;
+    margin-top: 5%;
+    padding-bottom: 5px;
+}
+.review-name{
+    display: flex;
+    padding: 30px;
+    margin: auto;
+}
+.review-rating{
+    margin-bottom: 5%;
+}
