@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'
 import img from '../../image.png'
-
-
-
+import ReviewSet from '../ReviewSet/ReviewSet';
 
 const Home = () => {
-    
+    const [reviews, setReviews] = useState([]);
+
+    useEffect( () =>{
+        fetch('fakedata.json')
+        .then(res => res.json())
+        .then(data => setReviews(data))
+    },[]);
+
     return (
         <div>
             <div className='home-container'>
@@ -22,7 +27,12 @@ const Home = () => {
             </div>
             <div className="customar-review">
                 <h2>Customer Review(3)</h2>
-                
+                {
+                    reviews.slice(0,3).map(review => <ReviewSet
+                    key={review.id}
+                    review={review}
+                    ></ReviewSet>)
+                }
             </div>
         </div>
     );
