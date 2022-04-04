@@ -1,5 +1,6 @@
 import React from 'react';
-import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import './Mylinechart.css'
 
 const Mylinechart = () => {
     const data = [
@@ -41,13 +42,22 @@ const Mylinechart = () => {
         }
     ]
     return (
-        <div>
+        <div className='rechart'>
+            <h1>Line Chart</h1>
             <LineChart width={800} height={400} data={data}>
             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
             <XAxis dataKey={'month'}></XAxis>
             <YAxis></YAxis>
             <Tooltip></Tooltip>
             </LineChart>
+            <br />
+            <h1>Bar Chart</h1>
+            <BarChart width={1000} height={400} data={data}>
+                <XAxis dataKey="investment" />
+                <YAxis />
+                <Tooltip />
+                <Bar dataKey="revenue" fill="#8884d8" />
+            </BarChart>
         </div>
     );
 };
