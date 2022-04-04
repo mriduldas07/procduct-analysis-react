@@ -1,10 +1,12 @@
 import React from 'react';
 import './Home.css'
 import img from '../../image.png'
+import useReview from '../../hooks/useReview';
 
 const Home = () => {
     return (
-        <div className='home-container'>
+        <div>
+            <div className='home-container'>
             <div className="home-text">
                 <h1 id='first-h1'>Welcome to the knowledge of Books</h1>
                 <h1 id='second-h1'>The ultimate power of Straggle</h1>
@@ -13,6 +15,10 @@ const Home = () => {
             </div>
             <div className="home-img">
                 <img src={img} alt="" />
+            </div>
+            </div>
+            <div className="customar-review">
+                <h2>Customer Review(3)</h2>
             </div>
         </div>
     );
