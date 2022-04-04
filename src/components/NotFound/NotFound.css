@@ -1,0 +1,10 @@
+.notfound-page{
+    margin-top: 500px;
+    margin: auto;
+}
+.notfound-page h1{
+    
+    text-align: center;
+    font-size: 100px;
+    border: 8px solid red;
+}
