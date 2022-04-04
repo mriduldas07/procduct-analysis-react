@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Home.css'
 import img from '../../image.png'
 import ReviewSet from '../ReviewSet/ReviewSet';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useState([]);
+    const navigate = useNavigate();
 
     useEffect( () =>{
         fetch('fakedata.json')
@@ -34,6 +36,7 @@ const Home = () => {
                     ></ReviewSet>)
                 }
             </div>
+            <button onClick={() => navigate(`/reviews`)}>See All Reviews</button>
         </div>
     );
 };

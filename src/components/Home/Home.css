@@ -1,9 +1,10 @@
 .home-container{
     margin-top: 8%;
+    margin-bottom: 8%;
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
-.home-container button{
+button{
     border: none;
     font-size: 20px;
     font-weight: 500;
@@ -12,8 +13,9 @@
     margin-top: 2%;
     color: white;
     background-image: linear-gradient(brown, crimson);
+    margin-bottom: 5%;
 }
-.home-container button:hover{
+button:hover{
     cursor: pointer;
 }
 .home-text{
